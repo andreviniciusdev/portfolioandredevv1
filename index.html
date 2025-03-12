@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>andre.dev</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body class="!font-urbanist flex flex-col w-full h-full text-gray-900 p-0 m-0 outline-none bg-[#101010]">
+  <div class="flex flex-col h-screen w-full bg-gradient-to-b from-[#320A55] to-[#000000]">
+    <!-- Header Section -->
+    <div class="z-[100] fixed w-full flex flex-1 m-auto" id="header">
+      <div class="px-16 py-8 text-white w-full flex flex-row justify-between max-w-screen-2xl m-auto">
+        <img src="assets/logo.svg" alt="" srcset="" />
+        <div class="sm:flex flex-row gap-8 justify-between items-center text-[#E6E6E6] text-lg font-normal hidden">
+          <a id="a-header" class="relative" href="#inicio">início</a>
+          <a id="a-header" class="relative" href="#conhecimentos">conhecimentos</a>
+          <a id="a-header" class="relative" href="#projetos">projetos</a>
+        </div>
+      </div>
+    </div>
+    <!-- Header Section -->
+
+    <!-- Hero Section -->
+    <div id="inicio"
+      class="relative text-white px-16 py-16 h-full flex flex-row justify-between w-full max-w-screen-2xl m-auto items-center overflow-hidden">
+      <div class="flex flex-col">
+        <h2 class="text-3xl lg:text-5xl font-normal">
+          Olá, meu nome é André <br />
+          Vinícius, sou
+          <span class="text-[#8732D1] font-semibold">Frontend <br />
+            Dev
+          </span>
+          & <span class="text-[#8732D1] font-semibold">UI Designer</span>.
+        </h2>
+        <p class="text-md lg:text-lg mt-4 font-medium text-[#BBBBBB]">
+          Aprendendo design e frontend enquanto desenvolvo <br />
+          minhas habilidades e compartilho meus projetos.
+        </p>
+        <a href="./pages/emconstrucao.html"
+          class="w-fit mt-4 px-6 py-2 bg-gradient-to-l from-[#320A55] to-[#150321] bg-opacity-10 rounded-full flex gap-4 items-center hover:bg-opacity-30 hover:scale-105 cursor-pointer transition-all duration-50">
+          baixar meu cv
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="18" viewBox="0 0 16 18" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M6.73798 0.25C5.96436 0.25 5.31904 0.841231 5.25148 1.61189C5.11024 3.22317 5.0745 4.84164 5.14436 6.45693C5.06003 6.46258 4.97571 6.46847 4.8914 6.47462L3.4019 6.5832C2.44985 6.6526 1.91764 7.71416 2.43163 8.51854C3.5278 10.2341 4.94026 11.7254 6.59369 12.9132L7.19043 13.3418C7.67425 13.6894 8.32591 13.6894 8.80972 13.3418L9.40646 12.9132C11.0599 11.7254 12.4724 10.2341 13.5685 8.51855C14.0825 7.71416 13.5503 6.6526 12.5983 6.5832L11.1088 6.47462C11.0245 6.46847 10.9401 6.46258 10.8558 6.45693C10.9257 4.84164 10.8899 3.22317 10.7487 1.61188C10.6811 0.841229 10.0358 0.25 9.26219 0.25H6.73798ZM6.68157 7.11473C6.56786 5.3275 6.58909 3.53417 6.74513 1.75H9.25503C9.41106 3.53417 9.4323 5.3275 9.31859 7.11473C9.30584 7.31509 9.37396 7.51221 9.5077 7.66195C9.64144 7.8117 9.82964 7.90156 10.0302 7.91144C10.3535 7.92737 10.6767 7.94711 10.9997 7.97065L12.0815 8.04951C11.1219 9.46281 9.92044 10.6971 8.53133 11.6949L8.00008 12.0765L7.46882 11.6949C6.07972 10.6971 4.87824 9.4628 3.9187 8.04951L5.00046 7.97065C5.32345 7.94711 5.64664 7.92737 5.96999 7.91144C6.17052 7.90156 6.35871 7.81169 6.49246 7.66195C6.6262 7.51221 6.69432 7.31509 6.68157 7.11473Z"
+              fill="white" />
+            <path
+              d="M1.75 14C1.75 13.5858 1.41421 13.25 1 13.25C0.585786 13.25 0.25 13.5858 0.25 14V16C0.25 16.9665 1.0335 17.75 2 17.75H14C14.9665 17.75 15.75 16.9665 15.75 16V14C15.75 13.5858 15.4142 13.25 15 13.25C14.5858 13.25 14.25 13.5858 14.25 14V16C14.25 16.1381 14.1381 16.25 14 16.25H2C1.86193 16.25 1.75 16.1381 1.75 16V14Z"
+              fill="white" />
+          </svg>
+        </a>
+      </div>
+      <div class="lg:flex flex-col hidden">
+        <img src="assets/hero-illustration.svg" alt="Hero Illustration" class="pulse-animation" />
+      </div>
+      <div class="absolute bottom-0 left-0 right-0 mb-0">
+        <div class="relative flex justify-center items-center z-30">
+          <img src="assets/hero.svg" alt="" />
+          <button id="scrollButton"
+            class="absolute bottom-8 p-4 rounded-full w-12 h-12 bg-opacity-40 flex justify-center items-center bg-black z-50 cursor-pointer transition hover:opacity-80">
+            <img src="assets/arrow-button.svg" alt="Seta para baixo">
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Section -->
+  </div>
+
+  <!-- Knowledges Section -->
+  <div id="conhecimentos" class="flex flex-col justify-center text-white h-full w-full items-center p-16 gap-4">
+    <h2 class="text-4xl font-medium">
+      conhecimentos <span class="text-[#8732D1]">.</span>
+    </h2>
+    <p class="text-lg text-[#BBBBBB]">
+      Aprendendo design e frontend enquanto desenvolvo.
+    </p>
+    <div class="w-full grid grid-flow-row gap-4 lg:grid-cols-3 grid-cols-1 md:grid-cols-2">
+      <div
+        class="bg-[#151515] p-4 rounded-2xl border border-[#323232] transition-all hover:border-[#8732D1] flex-col flex gap-4">
+        <img src="assets/html.svg" class="size-16" alt="" />
+        <div>
+          <h1 class="text-xl font-semibold">&lt;html/&gt;</h1>
+          <p class="text-[#666666]">
+            A base da web! Estruturo páginas com HTML para criar um conteúdo bem organizado e semântico.
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-[#151515] p-4 rounded-2xl border border-[#323232] transition-all hover:border-[#8732D1] flex-col flex gap-4">
+        <img src="assets/css.svg" class="size-16" alt="" />
+        <div>
+          <h1 class="text-xl font-semibold">.css</h1>
+          <p class="text-[#666666]">
+            Transformo ideias em realidade visual! Com CSS, estilizo páginas para torná-las bonitas, responsivas e
+            envolventes.
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-[#151515] p-4 rounded-2xl border border-[#323232] transition-all hover:border-[#8732D1] flex-col flex gap-4">
+        <img src="assets/js.svg" class="size-16" alt="" />
+        <div>
+          <h1 class="text-xl font-semibold">const javascript;</h1>
+          <p class="text-[#666666]">
+            Tornando tudo dinâmico! Com JavaScript, adiciono interatividade e funcionalidades às páginas.
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-[#151515] p-4 rounded-2xl border border-[#323232] transition-all hover:border-[#8732D1] flex-col flex gap-4">
+        <img src="assets/tailwind.svg" class="size-16" alt="" />
+        <div>
+          <h1 class="text-xl font-semibold">text-tailwind</h1>
+          <p class="text-[#666666]">
+            Estilização rápida e eficiente! Com Tailwind, escrevo menos CSS e ganho mais produtividade.
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-[#151515] p-4 rounded-2xl border border-[#323232] transition-all hover:border-[#8732D1] flex-col flex gap-4">
+        <img src="assets/figma.svg" class="size-16" alt="" />
+        <div>
+          <h1 class="text-xl font-semibold">page/portfolio</h1>
+          <p class="text-[#666666]">
+            Transformo ideias em interfaces! Uso o Figma para planejar e prototipar designs incríveis.
+          </p>
+        </div>
+      </div>
+      <div
+        class="bg-[#151515] p-4 rounded-2xl border border-[#323232] transition-all hover:border-[#8732D1] flex-col flex gap-4">
+        <img src="assets/git.svg" class="size-16" alt="" />
+        <div>
+          <h1 class="text-xl font-semibold">git commit -m "andredev"</h1>
+          <p class="text-[#666666]">
+            Registro cada mudança no código (inclusive os erros). Com Git, versiono projetos, colaboro em equipe e sempre tenho um jeito de voltar atrás!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Knowledges Section -->
+
+  <!-- Projects Section -->
+  <div id="projetos" class="flex flex-col justify-center text-white h-full w-full items-center p-16 gap-4">
+    <h2 class="text-4xl font-medium">
+      projetos <span class="text-[#8732D1]">.</span>
+    </h2>
+    <p class="text-lg text-[#BBBBBB]">
+      Aprendendo design e frontend enquanto desenvolvo.
+    </p>
+    <div class="w-full grid grid-flow-row gap-4 lg:grid-cols-3 grid-cols-1 md:grid-cols-2">
+      <div
+        class="bg-[#151515] p-4 rounded-2xl border border-[#323232] transition-all hover:border-[#8732D1] flex-col flex gap-4">
+        <div>
+          <h1 class="text-xl font-semibold">Project Love</h1>
+          <p class="text-[#666666]">
+            Foi um projeto que fiz para minha namorada <br> com a intenção de contar os dias que estamos juntos.
+          </p>
+          <a id="buttons-project" href="https://andreviniciusdev.github.io/projectlove/"
+            class="text-[#8732D1] hover:underline transition" target="_blank" rel="noopener noreferrer">
+            Visualizar projeto
+          </a>
+        </div>
+      </div>
+      <div
+        class="bg-[#151515] p-4 rounded-2xl border border-[#323232] transition-all hover:border-[#8732D1] flex-col flex gap-4">
+        <div>
+          <h1 class="text-xl font-semibold">Projeto Integrador - Quinta do Ypuã</h1>
+          <p class="text-[#666666]">
+            Foi o projeto integrador que fiz com meu grupo na escola <br> é um projeto que ainda está em desenvolvimento
+            para este ano.
+          </p>
+          <a id="buttons-project" href="https://Cristianroque.github.io/PROJETO-INTEGRADOR/"
+            class="text-[#8732D1] hover:underline transition" target="_blank" rel="noopener noreferrer">
+            Visualizar projeto
+          </a>
+        </div>
+      </div>
+      <div
+        class="bg-[#151515] p-4 rounded-2xl border border-[#323232] transition-all hover:border-[#8732D1] flex-col flex gap-4">
+        <div>
+          <h1 class="text-xl font-semibold">Formulário Contact-us</h1>
+          <p class="text-[#666666]">
+            Um formulário de contact-us bem simples, apenas <br> que fiz na sala como teste.
+          </p>
+          <a id="buttons-project" href="https://andreviniciusdev.github.io/formteste"
+            class="text-[#8732D1] hover:underline transition" target="_blank" rel="noopener noreferrer">
+            Visualizar projeto
+          </a>
+        </div>
+      </div>
+      <div
+        class="bg-[#151515] p-4 rounded-2xl border border-[#323232] transition-all hover:border-[#8732D1] flex-col flex gap-4">
+        <div>
+          <h1 class="text-xl font-semibold">Em breve</h1>
+          <p class="text-[#666666]">
+            Página em construção...
+          </p>
+          <a id="buttons-project" href="./pages/emconstrucao.html" class="text-[#8732D1] hover:underline transition"
+            rel="noopener noreferrer">
+            Visualizar projeto
+          </a>
+        </div>
+      </div>
+      <div
+        class="bg-[#151515] p-4 rounded-2xl border border-[#323232] transition-all hover:border-[#8732D1] flex-col flex gap-4">
+        <div>
+          <h1 class="text-xl font-semibold">Em breve</h1>
+          <p class="text-[#666666]">
+            Página em construção...
+          </p>
+          <a id="buttons-project" href="./pages/emconstrucao.html" class="text-[#8732D1] hover:underline transition"
+            rel="noopener noreferrer">
+            Visualizar projeto
+          </a>
+        </div>
+      </div>
+      <div
+        class="bg-[#151515] p-4 rounded-2xl border border-[#323232] transition-all hover:border-[#8732D1] flex-col flex gap-4">
+        <div>
+          <h1 class="text-xl font-semibold">Em breve</h1>
+          <p class="text-[#666666]">
+            Página em construção...
+          </p>
+          <a id="buttons-project" href="./pages/emconstrucao.html" class="text-[#8732D1] hover:underline transition"
+            rel="noopener noreferrer">
+            Visualizar projeto
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Projects Section -->
+
+  <!-- Marquee Section -->
+
+  <div class="overflow-hidden py-4">
+    <div class="marquee">
+      <div class="marquee-content">
+        <span>html | css | javascript | tailwind | figma | html |</span>
+        <span>html | css | javascript | tailwind | figma | html</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Marquee Section -->
+
+<!-- Footer Section -->
+<div class="border-t border-[#2A2A2A]">
+  <div class="max-w-screen-2xl mx-auto flex flex-wrap justify-between items-center px-8 py-6 gap-6">
+    
+    <!-- Logo -->
+    <img src="assets/logo.svg" alt="Logo" class="w-32 sm:w-32" />
+    
+    <!-- Social Media Links -->
+    <div class="flex flex-row gap-6 sm:gap-4 sm:justify-center">
+      <a href="https://www.instagram.com/andreviniciusbl" target="_blank" rel="noopener noreferrer"
+        class="cursor-pointer hover:scale-110 hover:filter hover:brightness-125 hover:contrast-125 transition-all duration-300">
+        <img class="w-6 sm:w-6" src="assets/instagram.svg" alt="Instagram" />
+      </a>
+      <a href="https://linkedin.com/andreviniciusdev" target="_blank" rel="noopener noreferrer"
+        class="cursor-pointer hover:scale-110 hover:filter hover:brightness-125 hover:contrast-125 transition-all duration-300">
+        <img class="w-6 sm:w-6" src="assets/linkedin.svg" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/andreviniciusdev" target="_blank" rel="noopener noreferrer"
+        class="cursor-pointer hover:scale-110 hover:filter hover:brightness-125 hover:contrast-125 transition-all duration-300">
+        <img class="w-6 sm:w-6" src="assets/github.svg" alt="GitHub" />
+      </a>
+    </div>
+
+  </div>
+</div>
+<!-- Footer Section -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
